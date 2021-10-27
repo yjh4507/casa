@@ -77,7 +77,7 @@
        #bottom #bottombox .box2 img:hover {opacity:0.5; cursor:pointer;}
 
        #bottom #bottombox .box2 .title {font-size:16px; margin:15px 5px 5px;}
-       #bottom #bottombox .box2 .brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 5px 5px;}
+       #bottom #bottombox .box2 .Brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 5px 5px;}
        #bottom #bottombox .box2>h4 {font-size:16px; position:absolute; left:5px; color:red;}
        #bottom #bottombox .box2>h5 {font-size:16px; position:absolute; left:50px;}
 
