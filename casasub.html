@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+
+   <meta charset="UTF-8">
+   <title>casamia</title>
+   <link rel="stylesheet" href="css/casasub.css">
+   <link rel="stylesheet" href="css/casacommon.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <script>
+      $(document).ready(function(){
+         $("#color-gy").click(function(){
+             $("#mainimg1").attr("src","img/sub_top1.png");
+         });
+         $("#color-iv").click(function(){
+             $("#mainimg1").attr("src","img/sub_top2.png");
+         });
+         $("#color-bl").click(function(){
+             $("#mainimg1").attr("src","img/sub_top3.png");
+         });
+        });
+         
+    </script>
+
+
+ </head>
+ <body>
+     <div id="main">
+        <div id="login">
+            <div><a href="#"><img src="img/icon1.png" alt="icon1"></a></div>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>
+
+        <header>
+
+            <nav>
+            <img class id="logo" src="img/logo1.png" alt="logo1">
+            <a href="#"><img class="icon2" src="img/icon2.png" alt="icon2"></a>
+
+                <ul>
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">SALE</a></li>
+                    <li><a href="#">BEST</a></li>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">STORY</a></li>
+                    <li><a href="#">EVENT</a></li>
+                    <li><a href="#">PET</a></li>
+                    <li><a href="#">BEAUTY</a></li>
+                    <li><a href="#">CANPO</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <div id="slider"></div>
+    </div>
+
+    <section>
+        <ul id="remocon">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+            
+        </div>
+
+     <div id="top">
+        <p>거실가구 <span>></span>소파 <span>></span>4인이상/카우치소파 <span>></span>패브릭소파</p>
+        
+        <div id="maintop">
+            <img id="mainimg1" src="img/sub_top1.png" alt="메인이미지1">
+            <div id="color-gy"></div>
+            <div id="color-iv"></div>
+            <div id="color-bl"></div>
+
+            <div class="info">
+              <h2>까사미아 캄포 슬림 4인 카우치소파</h2>
+              
+              <p>
+              <p>제품번호:36024 / 배송정보:무료</p>
+              <input class="xbox" type="button" value="배송불가지역안내" name="배송불가지역안내">
+              <p>*추가쿠폰적용가격은 주문/결제 페이지에서 확인하실수 있습니다.</p>
+
+
+              <div id="select">
+                <span>상품 색상</span>
+                <select class="selectcolor" name="색상선택">
+                <option value="그레이">캄포 슬림 4인 카우치소파 [그레이]</option>
+                <option value="베이지">캄포 슬림 4인 카우치소파 [베이지]</option>
+                <option value="네이비">캄포 슬림 4인 카우치소파 [네이비]</option>
+                </select>
+                <p>
+                <span>상품 수량</span>
+                <select class="select123" name="수량">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>
+              </div>
+
+              <div id="benefit">
+                <input class="benefit1" type="button" value="카드혜택" name="카드혜택">
+                <input class="benefit2" type="button" value="10%할인쿠폰받기" name="10%할인쿠폰받기">
+              </div>
+
+              <s>3,830,000원</s><p><span>할인적용가</span> 3,064,000원</p>
+
+
+            <input class="purchase" type="button" value="구매하기" name="구매하기">
+              <img class="cart" src="img/cart.png" alt="장바구니"> 
+
+            </div>
+            
+            <div id="mainbottom1">
+            <span>#까사미아</span>
+            <span>#캄포</span>
+            <span>#카우치소파</span>
+            <span>#페브릭소파</span>
+            <span>#이지클린소파</span>
+            <span>#4인소파</span>
+            </div>
+            
+            <div id="mainbottom2">
+            <img class="wish" src="img/hearticon2.png" alt="찜"><span>165</span>
+            <img class="shareicon" src="img/shareicon.png" alt="공유"><span>공유하기</span>
+            </div>
+        </div>
+
+        <div id="inquiry">
+            <ul>
+                <li id="detail" class="active"><a href="#detail">상품상세정보</a></li>
+                <li><a href="#">상품리뷰</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">배송/교환/환불 안내</a></li>
+            </ul>
+        </div>
+
+        <div id="detail">
+            <h2>캄포 시리즈 <span>일요일</span> 배송 서비스 시작</h2>
+            <h4>(수도권 지역 한정)</h4>
+            <p>기존 평일에서 토요일까지 배송 진행했던 캄포 시리즈가<br>
+                10월 3일부터 <span>일요일까지 배송 서비스를 확대 진행</span>합니다.<br>
+                일요일 배송으로 원하실 경우 고객센터(1566-0228)로 문의 부탁드립니다.</p>
+            <p>※캄포시리즈 외 까사미아 상품은 일요일 배송이 어려운 점 양해부탁드립니다.</p>
+        </div>
+
+
+     </div>
+
+
+
+
+
+    </section>
+     
+     <footer>
+         <div class="footer">
+             <div class="footerleft">
+               <img class="logo" src="img/logo2.png" alt="logo2">
+               <pre class="ad">
+상호명 : (주)신세계까사     대표이사 : 임병선     주소 : 서울시 중구 남대문시장10길 2 메사빌딩 5-6층<br>
+사업자등록번호 : 120-81-11794     통신 판매업 신고 : 2018-서울강남-03383     개인정보보호책임자 : 김찬후   <span>사업자정보확인</span><br>
+호스팅제공자 : (주)신세계아이앤씨     e-mail : guud@shinsegae.com     <span>에스크로 서비스 가입확인</span><br>
+Copyright ⓒ 2020 SHINSEGAE CASA Co., Ltd All rights reserved</pre>
+               <img class="snsicon" src="img/snsicon1.png" alt="icon">
+               <img class="snsicon" src="img/snsicon2.png" alt="icon">
+               <img class="snsicon" src="img/snsicon3.png" alt="icon">
+             </div>
+
+             <div class="footerright">
+                 <div class="call">고객문의 대표전화
+                 <h3>1566-0228</h3></div>
+
+                 <div class="call">신세계까사 A/S전화
+                 <h3>1588-3408</h3></div> 
+                 
+                 <p>
+
+                 <p>평일 09:00~18:00(주말 및 공휴일 휴무)</p>
+
+                 <h5>대리점개설안내></h5>
+
+                 <span>회사소개 <span>개인정보 처리방침</span></span>
+                 <span>채용정보 <span>서비스 이용약관</span></span>
+                 <span>입접문의 <span>위치정보 서비스 약관</span></span>                 
+             </div>
+         </div>
+     </footer>
+
+ </body>
+
+</html>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+       #main {width:100%; height:780px; position:relative;}
+       header {width:100%; height:180px; border-top:1px solid rgb(100, 100, 100);}
+       #login {width:1150px; height:65px; margin:0 auto; }
+       #login ul {float:right; width:230px; height:100%; font-size:16px; margin:0 15px;}
+       #login ul li {float:left; margin: 25px 0 0 20px;}
+       a {text-decoration:none; color:black;}
+       a:hover {opacity:0.5;}
+       #login  img {float:right; width:20px; height:20px; margin:23px 20px 0 0;}
+       #login img:hover {cursor:zoom-in;  transform: scale(1.2); transition: all 0.3s ease-in-out; }
+
+       #slider {width:100%; height:100%;  position:absolute; top: 0; left:0; z-index:-2;  background: url("../img/상단배경.jpg") no-repeat center;}
+       
+       header nav {width:1150px; height:50px; margin:0 auto;}
+       header nav ul {float:right; width:700px; height:30px; font-weight:bold; }
+       header nav ul li {float:left; margin:20px 0 0 20px; font-size:17px;}
+
+       #logo {float:left; width:200px; height:40px; margin:10px 20px;}
+
+       .icon2 {float:right; width:22px; height:22px; margin-top:18px; margin-right:17px;}
+
+       section {width:100%; height:2350px; margin:0 auto; position:relative;}
+       h1 {width:150px; height:40px; margin:0 auto; padding:10px; border-bottom: 10px solid #f6d413; font-size:25px; letter-spacing:5px;
+       text-align:center;}
+
+       #top {width:100%; height:450px; margin: 10px 0 0 0 ;}
+       #top #dramaincasa {float:left; width:50%; height:420px; background-color:#f6d413; margin:15px 10px 10px 0; }
+       #top #dramaincasa img {width:100%; height:280px;}
+       #top #dramaincasa>p {text-align:right; padding:5px 10px 0px 0; font-size:42px; margin-top:20px;}
+       #top #dramaincasa>p>span {font-family:'NEXON Lv2 Gothic'; font-weight:bold;}
+       #top #dramaincasa>p+p {font-size:23px;}
+
+       #top #dramaimg {float:left; width:585px; height:430px; position:relative; margin:10px 0 10px ;}
+       #top #dramaimg .box {float:left;  width:280px; height:205px; margin: 5px 0 5px 10px; background-color:#f0f0f0; padding:0;}
+       #top #dramaimg .box:hover {opacity:0.5; cursor:pointer;}
+       #top #dramaimg .box img {width:205px; height:150px; margin: 0 37px; position:relative; top:55px;}
+       
+       #top #dramaimg .box .p1 {position:absolute; top:35px; left:70px; }
+       #top #dramaimg .box .p2 {position:absolute; top:35px; right:67px; }
+       #top #dramaimg .box .p3 {position:absolute; top:250px; left:105px; }
+       #top #dramaimg .box .p4 {position:absolute; top:250px; right:80px; }
+
+       #middle {float:right; width:100%; height:450px; align-items:center ;}
+       #middle #goodbye img {float:right; width:50%; height:430px; margin:10px 0 10px 10px; padding:4px 0 5px;}
+
+       #middle #good {float:right; width:586px; height:430px; position:relative; margin:10px 0 10px;}
+       #middle #good .box1 {float:left; width:280px; height:205px; margin:5px; background-color:#f0f0f0; padding:0;}
+       #middle #good .box1:hover {opacity:0.5; cursor:pointer;}
+       #middle #good .box1 img {width:205px; height:150px; margin:0 37px; position:relative; top:55px;}
+       
+       #middle #good .box1 .p1 {position:absolute; top:30px; left:80px; }
+       #middle #good .box1 .p2 {position:absolute; top:30px; right:65px; }
+       #middle #good .box1 .p3 {position:absolute; top:240px; left:70px; }
+
+       #middle #good .box1 .p4 {position:absolute; top:240px; right:70px; }
+
+       #banner {width:100%; height:400px; background-color:#f0f0f0; display:inline-block; margin:40px 0 50px;}
+       #banner .coupon { width:1150px; height:100%; margin:0 auto; padding:15px 40px; position:relative}
+       #banner .coupon img { margin:0 0 0 20px; width:400px; height:350px; }
+       #banner .couponicon:hover {opacity:0.5; cursor:pointer;}
+       h2 {width:530px; height:60px; text-align:center; font-size:50px; display:inline; border-bottom:20px solid #f6d413;
+           position:absolute; top:70px; right:70px;}
+       #banner .coupon span:nth-of-type(1) {position:absolute; font-size:25px; top:180px; right:130px;}
+       #banner .coupon span:nth-of-type(2) {position:absolute; font-size:25px; font-weight:bold; top:230px; right:230px;}
+       #banner .coupon .couponicon {position:absolute; width: 250px; height:50px; top:300px; right:210px;}
+
+       #bottomnav {width:1150px; height:40px; margin:0 auto; }
+       #bottomnav ul {width:700px; height:40px; border-bottom:5px solid #f6d413; margin:0 auto;}
+       #bottomnav ul li {float:left; font-size:20px; margin:10px 0 0 30px; color:#999;}
+       #bottomnav ul li:nth-child(2) {margin:7px 0 0 30px; font-weight:bold; color:black; font-size:22px;}
+
+       #bottom {width:100%; height:850px;}
+       #bottom #bottombox {width:1150px; height:850px; margin:0 auto;}
+       #bottom #bottombox .box2 {float:left; width:245px; height:390px; margin:20px 21px 0; position:relative;}
+       #bottom #bottombox .box2 img {width:245px; height:280px;}
+       #bottom #bottombox .box2 img:hover {opacity:0.5; cursor:pointer;}
+
+       #bottom #bottombox .box2 .title {font-size:16px; margin:15px 5px 5px;}
+       #bottom #bottombox .box2 .brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 5px 5px;}
+       #bottom #bottombox .box2>h4 {font-size:16px; position:absolute; left:5px; color:red;}
+       #bottom #bottombox .box2>h5 {font-size:16px; position:absolute; left:50px;}
+
+       #bottom #bottombox .box2:nth-child(7)>.brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 22px 5px;}
+       #bottom #bottombox .box2:nth-child(7)>h4 {font-size:16px; position:absolute; top:357px; left:5px; color:red;}
+       #bottom #bottombox .box2:nth-child(7)>h5 {font-size:16px; position:absolute; top:357px; left:50px;}
+       
+       #bottom #bottombox .box2 .heart {position:absolute; bottom:14px; right:5px; width:20px; height:17px;}
+

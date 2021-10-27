@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+       * {margin:0; padding:0; box-sizing: border-box; font-family: 'NEXON Lv2 Gothic';}
+       ul, li, ol {list-style:none; margin:0; padding:0;}
+
+
+       @font-face {
+        font-family: 'NEXON Lv2 Gothic';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+        font-weight: normal; font-style: normal;}
+
+       
+
+
+       footer {width:100%; height:270px; margin:50px 0 0 0; background-color:black; }
+       footer .footer {width:1150px; height:100%; margin:0 auto;}
+       footer .footer .footerleft {float:left; width:650px; height:100%;}
+       .footerleft .logo {width:200px; height:40px; margin:35px 0 20px 0;}
+       .footerleft .ad {font-size:11px; color:#999;}
+       .footerleft .ad>span {color:white; text-decoration:underline;}
+       .footerleft .snsicon {width:35px; height:35px; margin:20px 20px 0 0;}
+
+       footer .footer .footerright {float:right; width:370px; height:100%; font-size:12px; color:white;}
+       .footerright .call { float:left; width:150px; margin:40px 30px 10px 0 ; font-size:13px;}
+       .footerright .call>h3 {margin:10px 0 10px; font-size:25px; text-decoration:none; }
+       .footerright>p {font-size:12px; color:#999;}
+       .footerright>h5 {margin:10px 0  20px; font-size:15px; letter-spacing:2.5px;}
+       .footerright>span {margin:8px 0 ; display:block;}
+       .footerright>span>span {margin:20px;}
+       .footerright>span:nth-of-type(1)>span {color:red;}
+
