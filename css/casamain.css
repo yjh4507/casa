@@ -81,9 +81,9 @@
        #bottom #bottombox .box2>h4 {font-size:16px; position:absolute; left:5px; color:red;}
        #bottom #bottombox .box2>h5 {font-size:16px; position:absolute; left:50px;}
 
-       #bottom #bottombox .box2:nth-child(7)>.brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 22px 5px;}
-       #bottom #bottombox .box2:nth-child(7)>h4 {font-size:16px; position:absolute; top:357px; left:5px; color:red;}
-       #bottom #bottombox .box2:nth-child(7)>h5 {font-size:16px; position:absolute; top:357px; left:50px;}
+       #bottom #bottombox .box2:nth-child(7)>.Brand {font-size:15px; color:rgb(133, 133, 133); font-weight:bold; margin: 20px 5px;}
+       #bottom #bottombox .box2:nth-child(7)>h4 {font-size:16px; position:absolute; top:358px; left:5px; color:red;}
+       #bottom #bottombox .box2:nth-child(7)>h5 {font-size:16px; position:absolute; top:358px; left:50px;}
        
        #bottom #bottombox .box2 .heart {position:absolute; bottom:14px; right:5px; width:20px; height:17px;}
 

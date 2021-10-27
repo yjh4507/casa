@@ -22,19 +22,18 @@
 
        .icon2 {float:right; width:22px; height:22px; margin-top:18px; margin-right:17px;}
 
-       section {width:100%; height:2350px; margin-top:100px;}
-       #top {width:1150px; height:800px; margin:0 auto;}
-       #top>p {float:left; font-size:18px; margin:0 0 10px 30px; display:block;}
-       #top>p>span {font-size:12px; color:rgb(175, 175, 175); letter-spacing: 10px; }
+       #sub_top {width:1150px; height:650px; margin:0 auto;}
+       #sub_top>p {float:left; font-size:18px; margin:60px 0 10px 30px; display:block;}
+       #sub_top>p>span {font-size:12px; color:rgb(175, 175, 175); letter-spacing: 10px; }
        
-       #top>#maintop {clear: both; width:1150px; height:600px; margin:0 auto;
+       #sub_top>#maintop {clear: both; width:1150px; height:600px; margin:0 auto;
        border:3px solid rgb(216, 216, 216); border-radius:35px; position:relative;}
        input:hover {cursor: pointer;}
-       #top #maintop>#mainimg1 {position:relative;display:block; width:550px; height:500px; margin:10px; border-radius:30px;}
-       #top #maintop>.info {width:550px; height:500px; border-bottom:1px solid ;
+       #sub_top #maintop>#mainimg1 {position:relative;display:block; width:550px; height:500px; margin:10px; border-radius:30px;}
+       #sub_top #maintop>.info {width:550px; height:500px; border-bottom:1px solid ;
        position:absolute; top:20px; right:15px;}
 
-       #top #maintop>.info>h2 { margin-top:20px; font-size:32px; letter-spacing:1px; padding-bottom:30px; border-bottom:2px solid #888;}
+       #sub_top #maintop>.info>h2 { margin-top:20px; font-size:32px; letter-spacing:1px; padding-bottom:30px; border-bottom:2px solid #888;}
 
        #maintop>div:nth-of-type(1) {position:absolute; width:25px; height:25px; margin:30px 20px 20px 0; border-radius:50px;
        bottom:80px; left:450px; background-color:#888;}
@@ -50,7 +49,9 @@
        .xbox:hover {background-color: #f6d413; border:none;}
        .info p:nth-of-type(3) {font-size:16px; margin-top:5px;}
 
-       #select {widht:550px; height:80px; margin:20px 0; padding:20px 0; width:550px; height:80px; border-top:1px dotted #999;}
+       
+
+       #select {width:550px; height:80px; margin:20px 0; padding:20px 0; width:550px; height:80px; border-top:1px dotted #999;}
        #select span {margin-right:20px; font-size:16px; color: black;}
        .selectcolor {margin-bottom:10px; padding:5px 60px;}
        .select123 {padding:5px 73px;}
@@ -85,16 +86,18 @@
        #mainbottom2>.shareicon:hover {cursor:pointer; opacity:0.5;}
        #mainbottom2>span {font-size:13px;}
 
-       #inquiry {margin:30px 0; width:1150px; height:50px;}
-       #inquiry ul {width:1150px; height:50px; margin:100px auto 0px;}
+       #inquiry {margin:0 auto; width:1150px; height:50px; }
+       #inquiry ul {width:1150px; height:50px; margin:100px 0px;}
        #inquiry ul>li {width:287px; height:100%; background-color: #f0f0f0; float:left; text-align:center;
        padding:15px 0 0 0; border:1px solid rgb(221, 221, 221); border-bottom:1px solid #f6d413; font-size:16px; color:black;}
        #inquiry ul>li.active {background-color:white; border-bottom:none; border-top:2px solod balck;}
 
-       #detail {margin:0 auto; width:1150px; height:250px; background-color:#f0f0f0; text-align:center; padding:30px;}
-       #detail>h2 {font-size:30px;}
-       #detail>h2>span {color:red;}
-       #detail>h4 {margin:10px 0 15px;}
-       #detail>p:nth-of-type(1) {font-size:20px; line-height:1.5;}
-       #detail>p:nth-of-type(1)>span {color:red; text-decoration:underline; font-weight:bold;}
-       #detail>p:nth-of-type(2) {margin:10px 0; color:#888;}
+       #detail {margin:0 auto; width:1150px; height:7000px;}
+
+       #detail_1 {margin:20px 0;; width:1150px; height:250px; background-color:#f0f0f0; text-align:center; padding:30px;}
+       #detail_1>h2 {font-size:30px;}
+       #detail_1>h2>span {color:red;}
+       #detail_1>h4 {margin:10px 0 15px;}
+       #detail_1>p:nth-of-type(1) {font-size:20px; line-height:1.5;}
+       #detail_1>p:nth-of-type(1)>span {color:red; text-decoration:underline; font-weight:bold;}
+       #detail_1>p:nth-of-type(2) {margin:10px 0; color:#888;}
