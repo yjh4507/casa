@@ -21,7 +21,21 @@
              $("#mainimg1").attr("src","img/sub_top3.png");
          });
         });
-         
+    </script>
+
+    <script>
+         $(document).ready(function(){
+             $("#detail_gr").click(function(){
+                 $("#detail_2img").attr("src","img/sub_detail1_gr.png");
+         });
+             $("#detail_iv").click(function(){
+                 $("#detail_2img").attr("src","img/sub_detail1_iv.png");
+         });
+             $("#detail_nv").click(function(){
+                 $("#detail_2img").attr("src","img/sub_detail1_bl.png");
+         });
+        });
+
     </script>
 
 
@@ -146,9 +160,9 @@
 
          <div class="detail_2">
            <img id="detail_2img" src="img/sub_detail1_gr.png" alt="detail_img">
-           <button>GRAY</button>
-           <button>IVORY</button>
-           <button>NAVY</button>
+           <button id="detail_gr">GRAY</button>
+           <button id="detail_iv">IVORY</button>
+           <button id="detail_nv">NAVY</button>
          </div>
           
 
