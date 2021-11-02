@@ -104,11 +104,15 @@
        
        .black {margin:0 auto 10px;}
        
-       .detail_2 {position:relative; width:1150px; height:760px; }
-       #detail_2img {width:1090px; border:0;}
-       .detail_2>button {position:absolute; width:60px; height:258px; border:0;}
-       .detail_2>button:nth-of-type(1) {right:0; top:0; background-color:#888; color:white;}
-       .detail_2>button:nth-of-type(2) {right:0; top:250px; background-color:#e2dcca;}
-       .detail_2>button:nth-of-type(3) {right:0; top:500px; background-color:rgb(34,14,104); color:white;}
+       .detail2 {position:relative; width:1150px; height:760px; }
+       #detail2img {width:1090px; border:0;}
+       .detail2>button {position:absolute; width:60px; height:258px; border:0;}
+       .detail2>button:nth-of-type(1) {right:0; top:0; background-color:#888; color:white;}
+       .detail2>button:nth-of-type(2) {right:0; top:250px; background-color:#e2dcca;}
+       .detail2>button:nth-of-type(3) {right:0; top:500px; background-color:rgb(34,14,104); color:white;}
+      
+       .detail3 {width:1150px; height:40px; line-height:1.5; padding:10px;   background-color:rgb(65, 65, 65); color:white;}
+       .detail3>td {border-bottom:1px dotted #e2dcca;}
+       .detail3 
 
-
+       .detail4 {width:1150px; height:100%;}
