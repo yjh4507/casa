@@ -26,13 +26,13 @@
     <script>
          $(document).ready(function(){
              $("#detail_gr").click(function(){
-                 $("#detail_2img").attr("src","img/sub_detail2_gr.png");
+                 $("#detail2img").attr("src","img/sub_detail2_gr.png");
          });
              $("#detail_iv").click(function(){
-                 $("#detail_2img").attr("src","img/sub_detail2_iv.png");
+                 $("#detail2img").attr("src","img/sub_detail2_iv.png");
          });
              $("#detail_nv").click(function(){
-                 $("#detail_2img").attr("src","img/sub_detail2_bl.png");
+                 $("#detail2img").attr("src","img/sub_detail2_bl.png");
          });
         });
 
@@ -140,14 +140,14 @@
         <div id="inquiry">
             <ul>
                 <li id="detail" class="active"><a href="#detail">상품상세정보</a></li>
-                <li><a href="#">상품리뷰</a></li>
+                <li><a href="#">주의사항</a></li>
                 <li><a href="#">Q&A</a></li>
-                <li><a href="#">배송/교환/환불 안내</a></li>
+                <li><a href="#">상품리뷰</a></li>
             </ul>
         </div>
 
          <section id="detail">
-          <div id="detail_1">
+          <div id="detail1">
             <h2>캄포 시리즈 <span>일요일</span> 배송 서비스 시작</h2>
             <h4>(수도권 지역 한정)</h4>
             <p>기존 평일에서 토요일까지 배송 진행했던 캄포 시리즈가<br>
@@ -158,14 +158,14 @@
 
          <img class="black" src="img/startcasa.png" alt="start" >
 
-         <div class="detail2">
+         <div id="detail2">
            <img id="detail2img" src="img/sub_detail2_gr.png" alt="detai2">
            <button id="detail_gr">GRAY</button>
            <button id="detail_iv">IVORY</button>
            <button id="detail_nv">BLUE</button>
          </div>
           
-           <table class="detail3">
+           <table id="detail3">
                <thead></thead>
                <tbody>
                    <tr>
@@ -203,7 +203,72 @@
                </tbody>
            </table>
            
-           <img class="detail4" src="img/sub_detail4.jpg" alt="detail4">
+           <img id="detail4" src="img/sub_detail4.jpg" alt="detail4">
+           
+           <div id="detail5">
+               <h1>'구름'위에 있는 것처럼 편안한 착석감</h1>
+               <img src="img/sub_detail5.jpg" alt="detail5">
+               <p>궁극의 편안함, 비결은 덕 다운과 홀로화이버 내장재 사용 <br><br>
+                적절히 믹스된 덕 다운과 홀로화이버 사용은 필파워를 극대화하여<br>
+                오래도록 소파가 꺼지지 않도록 복원과 내구성을 높여줍니다.<br><br>
+                ㆍ덕다운을 충전재로 사용하여 통기성과 보온력을 높임<br>
+                ㆍ오랜 시간 착석 후에도 쿠션이 꺼지지 않도록 유지 및 복원시키는 역할<br>
+                ㆍ화이버와 함께 사용하여 필파워,복원연 극대화<br><br>
+                <span>[필파워란?]<br>
+                1온스(28g)의 솜털을 24시간 암축한 후 압축을 풀었을 때 다시 부풀어오르는 복원력</span>
+            </p>
+           </div>
+
+           <div id="detail6">
+               <img class="dtl6_1" src="img/sub_detail6-1.jpg" alt="detail6">
+               <img class="dtl6_2" src="img/sub_detail6-2.jpg" alt="detail6">
+               <img class="dtl6_3" src="img/sub_detail6-3.jpg" alt="detail6">
+               <img class="dtl6_4" src="img/sub_detail6-4.jpg" alt="detail6">
+           </div>
+
+           <div id="detail7">
+               <h1>오염 걱정 없는 '신소재' 패브릭 원단 사용</h1>
+               <p>관리가 쉬운 이지클린 원단, 미국 'LIVE SMART' 社의 패브릭.<br>
+                가벼운 얼룩이나 먼지 등의 오염을 소량의 물로 쉽게 관리할 수 있는 기능성 원단입니다.</p>
+                
+                <img src="img/sub_detail7.jpg" alt="detail7">
+            </div>
+
+            <div id="inquiry">
+                <ul>
+                    <li id="detail"><a href="#detail">상품상세정보</a></li>
+                    <li id="deatil"><a href="#detail8" class="active">주의사항</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">상품리뷰</a></li>
+                </ul>
+            </div>
+
+            <div id="detail8">
+                <h1>소파 주의사항</h1>
+                
+                <h2>설치 시</h2>
+                <p>○ 수평이 맞지 않을 경우 프레임 손상 및 소음 발생의 원인이 될 수 있습니다.<br>
+                ○ 소파 중앙에 위치한 보조다리는 시간이 지나면서 프레임이 변형되거나 꺼짐 등의 현상이<br>
+                 발생했을 때 보조하는 기능을 하며, 인치 시 바닥에 닿게 조절하여 설치합니다.<br>
+                 <span>(TIP) 긁힘 방지 패드를 사용하면 바닥의 긁힘을 방지하는 동시에 수평을 맞출 수 있습니다.</span>
+                </p>
+
+                <h2>이동 시</h2>
+                <p>○소파를 들지 않고 힘으로 밀었을 경우 중앙의 지지 다릿발이 부러질 수 있으며, 바닥이 손상될 수<br>
+                    있습니다. 또한 쿠션 등을 잡아당겼을 경우 가죽이 찢어지거나 패브릭의 조직이 상할 수 있습니다.
+                </p>
+
+                <h2>사용 시</h2>
+                <p> ① 날카로운 물건을 조심해주세요.<br>
+                ②소파에 강한 충격을 주지 마세요.<br>
+                ③등쿠션,팔쿠션 쪽에 앉거나 올라서지 마세요.<br>
+                ④애완동물을 주의하세요.<br>
+                ⑤정기적으로 관리해주세요.<br>
+                ⑥벽에 붙여 사용할 시 벽지의 색 바램에 주의해주세요.
+                </p>
+
+
+            </div>
 
     </section>
 
