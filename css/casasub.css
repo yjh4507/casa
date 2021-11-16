@@ -165,5 +165,7 @@
        .revbox td:nth-child(1) {width:150px; text-align:center;}
        .revbox td:nth-child(2) {width:150px; text-align:center; color:#f6d413;}
        .revbox td:nth-child(3) {width:700px; }
-       .revbox td:nth-child(4) {width:150px; text-align:center; }
+       .revbox td:nth-child(4) {width:150px; text-align:center;}
+       .revbox tr:hover {opacity:0.5; cursor: pointer;}
+
  
